@@ -8,14 +8,6 @@ var bodyParser = require('body-parser');
 var app = express();
 var shortid = require('shortid');
 var validUrl = require('valid-url');
-var
-  CircularJSON = require('circular-json'),
-  obj = { foo: 'bar' },
-  str
-;
-  
-obj.self = obj;
-str = CircularJSON.stringify(obj);
 
 // Basic Configuration 
 var port = process.env.PORT || 3000;
