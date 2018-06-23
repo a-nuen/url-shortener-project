@@ -1,6 +1,5 @@
 dependencies:
   body-parser: 1.18.3
-  circular-json: 0.5.4
   cors: 2.8.4
   express: 5.0.0-alpha.6
   mongodb: 3.0.10
@@ -60,10 +59,6 @@ packages:
       node: '>= 0.8'
     resolution:
       integrity: sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg=
-  /circular-json/0.5.4:
-    dev: false
-    resolution:
-      integrity: sha512-vnJA8KS0BfOihugYEUkLRcnmq21FbuivbxgzDLXNs3zIk4KllV4Mx4UuTzBXht9F00C7QfD1YqMXg1zP6EXpig==
   /content-disposition/0.5.2:
     dev: false
     engines:
@@ -545,7 +540,6 @@ shrinkwrapMinorVersion: 7
 shrinkwrapVersion: 3
 specifiers:
   body-parser: ^1.18.3
-  circular-json: ^0.5.4
   cors: ^2.8.4
   express: ^5.0.0-alpha.2
   mongodb: ^3.0.10
